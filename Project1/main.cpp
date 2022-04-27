@@ -9,7 +9,7 @@ int main() {							//메인 함수 선언
 	std::cout << "\n입력한 식 A: ";     //입력받은 식을 출력함을 알림
 	A.ShowPolynomial();					//ShowPolynomial 함수를 사용하여 정렬된 A 객체를 출력
 	std::cout << "입력한 식 B: ";		//입력받은 식을 출력함을 알림
-	B.ShowPolynomial();				    //ShowPolynomial 함수를 사용하여 정렬된 B 객체를 출력
+	B.ShowPolynomial();				    //ShowPolynomial 함수를 사용하여 정렬된 B 객체를 출력!
 
 	Polynomial C = A.Mul(B);			//C 객체를 생성하고 A와 B 객체를 곱한 값을 대입하고 정렬(정렬함수는 생성자에 내장).
 	std::cout << "A X B = ";			//A와 B의 곱셈한 값을 출력함을 알림
